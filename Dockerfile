@@ -8,4 +8,4 @@ ENV PATH="/root/.local/bin:${PATH}"
 
 EXPOSE 8080
 
-CMD ["hermes", "serve", "--port", "8080"]
+CMD ["hermes", "gateway", "--port", "8080"]
